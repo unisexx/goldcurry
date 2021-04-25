@@ -10,6 +10,11 @@ use Image;
 
 class InstagramController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index(Request $request)
     {
         $rs = Instagram::orderBy('id', 'desc')->simplePaginate(5);
