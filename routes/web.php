@@ -20,6 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
+Route::get('/shopinfo', [App\Http\Controllers\HomeController::class, 'shopinfo'])->name('shopinfo');
+Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu'])->name('menu');
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contactus'])->name('contact-us');
 
 // Admin
 Route::middleware(['auth'])

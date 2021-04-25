@@ -39,7 +39,7 @@
                             <input class="switch_status" data-id="<?php echo $item->id?>" data-tb="instagrams" type="checkbox" @if(@$item->status == 1) checked @endif data-bootstrap-switch>
                         </td>
                         <td><img src="{{ asset('instagram/'.$item->image) }}" height="100"></td>
-                        <td>
+                        {{-- <td>
                             <form method="POST" action="{{ url('admin/instagram/' . $item->id) }}" accept-charset="UTF-8" style="display:inline">
                                 {{ method_field('DELETE') }}
                                 {{ csrf_field() }}
@@ -47,7 +47,7 @@
                                     ลบ
                                 </button>
                             </form>
-                        </td>
+                        </td> --}}
                     </tr>
                 @endforeach
             </tbody>
