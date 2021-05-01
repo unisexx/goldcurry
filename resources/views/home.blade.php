@@ -149,7 +149,12 @@
     </div>
     <div class="row row-cols-12 m-0 insta mt-4">
         @foreach ($instagrams as $item)
-            <div class="col"><img src="{{ url('instagram/'.$item->image) }}" alt="" class="img-fluid"></div>
+            <div class="col">
+                <a class="venobox" href="{{ url('instagram/'.$item->image) }}"
+                data-gall="galleryIg">
+                    <img src="{{ url('instagram/'.$item->image) }}" alt="" class="img-fluid">
+                </a>
+            </div>
         @endforeach
     </div>
 </div>
