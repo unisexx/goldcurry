@@ -21,6 +21,7 @@ Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->nam
 Route::get('/shopinfo', [App\Http\Controllers\HomeController::class, 'shopinfo'])->name('shopinfo');
 Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu'])->name('menu');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contactus'])->name('contact-us');
+Route::get('/franchise', [App\Http\Controllers\HomeController::class, 'franchise'])->name('franchise');
 
 // Admin
 Route::middleware(['auth'])
@@ -30,5 +31,4 @@ Route::middleware(['auth'])
         Route::get('ajaxSwitchStatus', [App\Http\Controllers\Admin\InstagramController::class, 'ajaxSwitchStatus'])->name('ajaxSwitchStatus');
         Route::get('ajaxGetInstagramData', [App\Http\Controllers\Admin\InstagramController::class, 'ajaxGetInstagramData'])->name('ajaxGetInstagramData');
         Route::resource('instagram', '\App\Http\Controllers\Admin\InstagramController');
-
     });

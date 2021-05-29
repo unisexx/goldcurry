@@ -19,13 +19,13 @@
                                 <li class="nav-item"><a class="nav-link" href="{{ url('shopinfo') }}">Shop Info</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ url('menu') }}">Menu</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Franchise</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ url('franchise') }}">Franchise</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ url('contact-us') }}">Contact us</a></li>
                             </ul>
                             <!--
                             <form class="d-flex">
-                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                              <button class="btn btn-outline-success" type="submit">Search</button>
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
                             </form>
                             -->
                         </div>
