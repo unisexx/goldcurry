@@ -22,6 +22,7 @@ Route::get('/shopinfo', [App\Http\Controllers\HomeController::class, 'shopinfo']
 Route::get('/menu', [App\Http\Controllers\HomeController::class, 'menu'])->name('menu');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contactus'])->name('contact-us');
 Route::get('/franchise', [App\Http\Controllers\HomeController::class, 'franchise'])->name('franchise');
+Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('product');
 
 // Admin
 Route::middleware(['auth'])

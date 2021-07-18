@@ -37,4 +37,9 @@ class HomeController extends Controller
     {
         return view('franchise');
     }
+
+    public function product()
+    {
+        return view('product');
+    }
 }

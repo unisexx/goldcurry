@@ -18,9 +18,11 @@
                                 <li class="nav-item"><a class="nav-link" href="{{ url('about') }}">About Us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ url('shopinfo') }}">Shop Info</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ url('menu') }}">Menu</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ url('franchise') }}">Franchise</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ url('contact-us') }}">Contact us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ url('product') }}">Product</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ url('franchise') }}">Franchise</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="{{ url('contact-us') }}">Contact us</a>
+                                </li>
                             </ul>
                             <!--
                             <form class="d-flex">
@@ -34,8 +36,10 @@
                 <div class="col-lg-2 col-md-7 col-sm-7 col-7">
                     <div class="toolbar-sl-share d-flex justify-content-end">
                         <ul class="p-0">
-                            <li><a href="#"><img src="{{ asset('goldcurry/images/icon-instagram.png') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('goldcurry/images/icon-facebook.png') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('goldcurry/images/icon-instagram.png') }}" alt=""></a>
+                            </li>
+                            <li><a href="#"><img src="{{ asset('goldcurry/images/icon-facebook.png') }}" alt=""></a>
+                            </li>
                             <li><a href="#"><img src="{{ asset('goldcurry/images/icon-line.png') }}" alt=""></a></li>
                         </ul>
                     </div>

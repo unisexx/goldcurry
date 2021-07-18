@@ -433,3 +433,21 @@ color:white; font-size: 1.7em; text-align: center; display: block; vertical-alig
 
 .vbox-close{ padding: 30px;    background-position: 20px center; right: 20px;z-index: 99 ; line-height: 3em ; }
 
+.text-new-product{color: #f15a24; font-weight: 700; line-height: 2em; font-size: 1.2em;}
+.text-new-product2{color: #000; font-weight: 700; line-height: 2em; font-size: 1.2em;}
+.text-new-product3{color: #603813; font-weight: 600; font-size: 1.8em;}
+.text-new-product4{color: #603813; font-weight: 600; font-size: 1.8em; line-height: 2em;}
+.newproduct-line {  border-bottom: 2px dashed #f4781e;}
+.text-orange-product{color: #f4781e;}
+@media (min-width: 767px) and (max-width: 3000px) {
+    .mr-pic-product{margin-top:-130px !important;}
+    .newproduct_001{position: relative; top: -170px;}
+    .top-newproduct{margin-top:100px;}
+    .text-new-product4{padding: 50px;}
+}
+@media (min-width: 767px) and (max-width: 990px) {
+    .text-new-product4{padding: 0px;}
+}
+@media (min-width: 0px) and (max-width: 766px) {
+    .text-new-product4{padding: 10px;}
+}
